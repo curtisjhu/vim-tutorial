@@ -309,6 +309,7 @@ Table of Contents
 - :vmap         - Visual and Select mode mappings only
 - :winpos       - Vim window position (gui)
 - :xmap         - visual mode maps only
+> Hint `:[tab]` will display all your possible options
 
 ### Search
 - /pattern - search for pattern
