@@ -1,5 +1,5 @@
 # Vim Cheatsheet
-*note still a work in progess.
+Everything you need to know about default vim in one page
 Of course, the best way to learn is to use it.
 ```
 $ vimtutor
@@ -8,8 +8,21 @@ $ vimtutor
 Table of Contents
 - [Cursor Movement](#cursor-movement)
 - [Macros](#macros)
+- [Insert Mode](#insert-mode)
+- [Editing Mode](#editing-mode)
+- [Visual Mode](#visual-mode)
+- [Exiting](#exiting)
+- [Copy and Paste](#copy-and-paste)
+- [Registers](#registers)
+- [Working with Multiple Files](#working-with-multiple-files)
+- [Indenting](#indenting)
+- [Tabs](#tabs)
 - [Options](#options)
-- [Non-Vim, but helpful cmd](#Non-Vim commands)
+- [Search](#search)
+- [Diff](#diff)
+- [Marks and Positions](#marks-and-positions)
+- [Global](#global)
+- [Non-Vim](#Non-Vim commands)
 
 ### Cursor Movement
 (in order of most helpful to least helpful)
@@ -119,7 +132,7 @@ Table of Contents
 - V - start linewise visual mode
 - o - move to other end of marked area
 - Ctrl + v - start visual block mode
--  O - move to other corner of block
+- O - move to other corner of block
 - aw - mark a word
 - ab - a block with ()
 - aB - a block with {}
@@ -128,7 +141,7 @@ Table of Contents
 - iB - inner block with {}
 - it - inner block with <> tags
 - Esc - exit visual mode
-- > - shift text right
+- \> - shift text right
 - < - shift text left
 - y - yank (copy) marked text
 - d - delete marked text
@@ -173,12 +186,12 @@ Table of Contents
 - " - unnamed register, last delete or yank
 - % - current file name
 - \# - alternate file name
-- * - clipboard contents (X11 primary)
-- + - clipboard contents (X11 clipboard)
+- \* - clipboard contents (X11 primary)
+- \+ - clipboard contents (X11 clipboard)
 - / - last search pattern
 - : - last command-line
 - . - last inserted text
-- - - last small (less than a line) delete
+- \- - last small (less than a line) delete
 - = - expression register
 - _ - black hole register
 
@@ -210,11 +223,11 @@ Table of Contents
 - Ctrl + wK - make current window full width at the very top (topmost horizontal window)
 
 ### Indenting
-- >> - indent (move right) line one shiftwidth
+- \>\> - indent (move right) line one shiftwidth
 - << - de-indent (move left) line one shiftwidth
-- >% - indent a block with () or {} (cursor on brace)
-- >ib - indent inner block with ()
-- >at - indent a block with <> tags
+- \>% - indent a block with () or {} (cursor on brace)
+- \>ib - indent inner block with ()
+- \>at - indent a block with <> tags
 - 3== - re-indent 3 lines
 - =% - re-indent a block with () or {} (cursor on brace)
 - =iB - re-indent inner block with {}
