@@ -25,7 +25,7 @@ Table of Contents
 - [Non-Vim](#Non-Vim commands)
 
 ### Cursor Movement
-(in order of most helpful to least helpful)
+(in order of most helpful to least helpful)\
 **Moving**
 - h - left ⬅
 - j - down ⬇
@@ -73,7 +73,7 @@ Table of Contents
 - ; - repeat previous f, t, F or T movement
 - , - repeat previous f, t, F or T movement, backwards
 
-**shifting screen**
+**Shifting Screen**
 - Ctrl + e - move screen down one line (without moving cursor)
 - Ctrl + y - move screen up one line (without moving cursor)
 - Ctrl + b - move back one full screen
