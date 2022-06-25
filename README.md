@@ -73,7 +73,7 @@ Table of Contents
 - ; - repeat previous f, t, F or T movement
 - , - repeat previous f, t, F or T movement, backwards
 
-** shifting screen **
+**shifting screen**
 - Ctrl + e - move screen down one line (without moving cursor)
 - Ctrl + y - move screen up one line (without moving cursor)
 - Ctrl + b - move back one full screen
