@@ -22,7 +22,7 @@ Table of Contents
 - [Diff](#diff)
 - [Marks and Positions](#marks-and-positions)
 - [Global](#global)
-- [Non-Vim](#Non-Vim commands)
+- [Non-Vim](#non-vim-commands)
 
 ### Cursor Movement
 (in order of most helpful to least helpful)\
