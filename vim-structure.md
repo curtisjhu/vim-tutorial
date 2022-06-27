@@ -17,8 +17,7 @@ syntax on
 autoload  themes  plugged
 ```
 
-.viminfo <br>
-**Stores...**
+.viminfo 
 - The command line history.
 - The search string history.
 - The input-line history.
